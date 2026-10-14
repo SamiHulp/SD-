@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SD – Musik, Film, Flammkuchen</title>
+<script>document.documentElement.classList.add('js');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Hanken+Grotesk:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="mark" href="#top" data-go="#top" aria-label="Zum Anfang">SD</a>
+    <nav aria-label="Hauptnavigation">
+      <a class="btn small" href="#catering" data-go="#catering">Catering</a>
+      <a class="btn small" href="#medien" data-go="#medien">Film</a>
+      <a class="btn small" href="#projekte" data-go="#projekte">Projekte</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <div class="hero">
+    <figure class="photo hero-photo has-img" data-photo="hero">
+      <div class="fade-x"><div class="fade-y"><div class="ph"></div><img src="images/hero.jpg" alt="Portrait"><span class="tint"></span></div></div>
+      <button class="slot" type="button">Foto einfügen</button>
+      <input type="file" accept="image/*" hidden>
+    </figure>
+    <div class="wrap hero-copy">
+      <h1>Warum hat ein Student aus „The Länd“ eine Website?</h1>
+      <p class="lead">Genau diese Frage haben mich meine Freunde auch gefragt.</p>
+      <div class="btns">
+        <a class="btn" href="#ueber" data-go="#ueber" data-mark="musik">Musik</a>
+        <a class="btn" href="#medien" data-go="#medien">Film</a>
+        <a class="btn" href="#catering" data-go="#catering">Catering</a>
+        <a class="btn" href="#ueber" data-go="#ueber" data-mark="mentor">Mentoring</a>
+        <a class="btn" href="#ueber" data-go="#ueber" data-mark="forschen">Forschen</a>
+      </div>
+    </div>
+  </div>
+
+  <section id="ueber">
+    <div class="wrap about">
+      <p class="statement">
+        Aber hey, ich mache <span class="key" data-k="musik">Musik</span>, drehe Filme und bin noch in so manches andere Projekt verwickelt.
+        <span class="rest">Nebenbei biete ich auch noch Catering an, bin <span class="key" data-k="mentor">Mentor</span> und habe einen Riesen Spaß am Lernen und <span class="key" data-k="forschen">Forschen</span>.</span>
+      </p>
+      <div class="about-photo-wrap">
+        <figure class="photo has-img" data-photo="about">
+          <div class="fade-x"><div class="fade-y"><div class="ph"></div><img src="images/about.jpg" alt="Porträt"><span class="tint"></span></div></div>
+          <button class="slot" type="button">Foto einfügen</button>
+          <input type="file" accept="image/*" hidden>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="catering">
+    <div class="wrap cater">
+      <div class="arch">
+        <figure class="photo has-img" data-photo="catering">
+          <div class="fade-x"><div class="fade-y"><div class="ph"></div><img src="images/catering.jpg" alt="Flammkuchen"><span class="tint"></span></div></div>
+          <button class="slot" type="button">Foto einfügen</button>
+          <input type="file" accept="image/*" hidden>
+        </figure>
+      </div>
+      <div class="prose">
+        <h2 class="title">Catering</h2>
+        <p class="big">Du magst Flammkuchen? <span class="nein">Nein?</span></p>
+        <p>Das glaube ich dir nicht! Sobald ich einmal mit meinem Ofen ankomme und loslege, wirst du dich in das elsässische Gericht verlieben!</p>
+        <p>Außerdem bin ich gerne bereit, einen Nachtisch oder Häppchen zu bereiten.</p>
+        <div class="ps"><b>PS</b>Ruf mich nicht an, wenn du ein „niedriges Budget“ hast.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="medien">
+    <div class="cine-wrap">
+      <figure class="photo has-img" data-photo="film">
+        <div class="fade-x"><div class="fade-y"><div class="ph"></div><img src="images/film.jpg" alt="Dreh"><span class="tint"></span></div></div>
+        <button class="slot" type="button">Foto einfügen</button>
+        <input type="file" accept="image/*" hidden>
+      </figure>
+      <div class="vf" aria-hidden="true"><span class="a"></span><span class="b"></span><span class="c"></span><span class="d"></span></div>
+      <h2 class="studio title">Harles Studios<small>Mit Freunden gegründet. Drohne, Filmmaterial, Auge für den Moment.</small></h2>
+    </div>
+    <div class="wrap columns">
+      <div>
+        <h3>Soziale Medien und Filme</h3>
+        <p>Mit meiner Drohne, etwas Filmmaterial und den mit Freunden gegründeten „Harles Studios“ bin ich unschlagbar.</p>
+      </div>
+      <div>
+        <h3>Unter uns</h3>
+        <p>Ich bin kein Social Media „Junkie“. Dafür kenne ich mich um so mehr mit Dreharbeiten aus und helfe dir gerne.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projekte">
+    <figure class="photo proj-photo has-img" data-photo="projekte">
+      <div class="fade-x"><div class="fade-y"><div class="ph"></div><img src="images/projekte.jpg" alt="Projekte"><span class="tint"></span></div></div>
+      <button class="slot" type="button">Foto einfügen</button>
+      <input type="file" accept="image/*" hidden>
+    </figure>
+    <div class="wrap">
+      <div class="proj-copy">
+        <h2 class="title">Projekte</h2>
+        <p class="big">Wenige Sachen sind so cool wie Projekte!</p>
+        <p class="sub">Sofern sie nicht von Lehrern kommen…</p>
+        <p>Ich interessiere mich sehr für Politik<sup>*</sup> und Gesellschaft, Wissenschaft und Kultur oder aber auch irgendwas anderes.</p>
+        <ul class="topics" aria-label="Interessen">
+          <li>Politik</li><li>Gesellschaft</li><li>Wissenschaft</li><li>Kultur</li>
+        </ul>
+        <p class="join">Du brauchst einen Denker, Anpacker, Helfer? Ich bin gerne da!</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="sig">SD</div>
+    <div>
+      <p><b>*</b> Nein, ich denke nicht, dass man alle Ausländer in Kriegsgebiete abschieben sollte, höre keine Musik, die schon für deine Großeltern out wäre, und träume nachts nicht von Adolf Hitler … grüße an die AfD Sachsen-Anhalt.</p>
+      <button class="edit-toggle" type="button" id="editToggle">Fotos verwalten</button>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
